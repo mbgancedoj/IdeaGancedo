@@ -6,35 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="/img/flower-pot.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Productos</title>
 </head>
 <body>
-    <header>
-        <img src="/img/Eloise.png" alt="Logo Eloise">
-    <nav>
-        <ul>
-            <li>
-                <a href="/index.html">Home</a>
-            </li>
-            <li>
-                <a href="/pages/productos/productos.html">Productos</a>
-            </li>
-            <li>
-                <a href="/pages/galeria.html">Galería</a>
-            </li>
-            <li>
-                <a href="/pages/cuidados.html">Cuidados</a>
-            </li>
-            <li>
-                <a href="/pages/contacto.html">Contacto</a>
-            </li>
-        </ul>
-    </nav>
-    <header/>
+    <header class="header">
+        <div class="header__logo">
+            <img src="/img/Eloise.png" alt="Logo Eloise">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__li">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li class="header__li">
+                    <a href="/pages/productos/productos.html">Productos</a>
+                </li>
+                <li class="header__li">
+                    <a href="/pages/galeria.html">Galería</a>
+                </li>
+                <li class="header__li">
+                    <a href="/pages/cuidados.html">Cuidados</a>
+                </li>
+                <li class="header__li">
+                    <a href="/pages/contacto.html">Contacto</a>
+                </li>
+                <li class="header__libag">
+                    <a href="#" class="header__libag--link">
+                        <i class="fas fa-shopping-bag"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
 
-    <main>
-        <h2>Productos</h2>
-        <div>
+    <main class="productos">
+        <h1 class="productos__h1">Productos</h1>
+
+        <div class="productos__categoria">
+            <a href="../productos/anillos.html">Anillos</a>
+            <a href="../productos/anillos.html"><img src="/img/Anillos/anillos-sienna2.jpg" alt="Anillos"></a>   
+        </div>
+
+        <div class="productos__categoria">
+            <a href="../productos/aros.html">Aros</a>
+            <a href="../productos/aros.html"><img src="/img/Aros/aros-larissa2.jpg" alt="Aros"></a> 
+        </div>
+
+        <div class="productos__categoria">
+            <a href="../productos/collares.html">Collares</a>
+            <a href="../productos/collares.html"><img src="/img/Collares/collar-delicate2.jpg" alt="Collares"></a>
+        </div>
+        <!-- <div>
             <table class="novedades">
                 <tr>
                     <th>Anillos</th>
@@ -53,23 +82,24 @@
                     </td>
                 </tr>
             </table>
-        </div>
+        </div> -->
     </main>
 
-    <footer>
-        <h2>Eloise</h2>
-        <div>
-            <h2>Horarios de atención</h2>
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="/img/Eloise.png" alt="Logo Eloise">
+        </div>
+        <div class="footer__horarios">
+            <h2 class="footer__horariosh2">Horarios de atención</h2>
             <p>Lunes a Viernes: 10:00 a 18:00 hs.</p>
             <p>Sábados: 10:00 a 14:00 hs.</p>
         </div>
-        <div>
-            <h2>Redes</h2>
-            <a href="#">Instagram</a>
-            <br>
-            <a href="#">Whatsapp</a>
+        <div class="footer__redes">
+            <h2 class="footer__redesh2">Redes</h2>
+            <a href="#" class="footer__link"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#" class="footer__link"><i class="fab fa-whatsapp"></i> Whatsapp</a>
         </div>
-        <div>
+        <div class="footer__copyright">
             <p>Copyright Belén Gancedo 2022</p>
         </div>
     </footer>

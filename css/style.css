@@ -17,6 +17,7 @@
     z-index: 2;
 }
 
+
 .header__logo{
     padding-top: 10px;
     padding-left: 30px;
@@ -164,6 +165,7 @@
     padding-left: 400px;
 }
 
+
 /* FOOTER */
 
 .footer{
@@ -206,3 +208,94 @@
 }
 
 
+/* MAIN PRODUCTOS */
+.productos {
+    background-color: #DDE7C7;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.productos__h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #59B18F;
+}
+
+.productos__categoria {
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+}
+
+.productos__categoria a {
+    display: block;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 30px;
+    color: #59B18F;
+}
+
+.productos__categoria a img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* MAIN GALERIA */
+
+.galeria{
+    background-color: #DDE7C7;
+}
+
+.galeria__imagen{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    padding: 10px;
+}
+
+.galeria__imagen img{
+    width: 100%;
+    height: auto;
+}
+
+/* MAIN CUIDADOS */
+
+.cuidados{
+    height: 100vh;
+    background-color: #DDE7C7;
+}
+
+.cuidados__h1{
+    font-family: 'Playfair Display', serif;
+    padding-left: 30px;
+    padding-top: 30px;
+    color:#59B18F;
+    font-size: 50px;
+}
+
+.cuidados__p{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 300px;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+.cuidados__list{
+    list-style: circle;
+    padding-left: 50px;
+    padding-right: 250px;
+    padding-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.cuidados__li{
+    padding-top: 20px;
+}
