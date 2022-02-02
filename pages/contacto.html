@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="shortcut icon" href="/img/flower-pot.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/flower-pot.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,7 +17,7 @@
 <body>
     <header class="header">
         <div class="header__logo">
-            <img src="/img/Eloise.png" alt="Logo Eloise">
+            <img src="../img/Eloise.png" alt="Logo Eloise">
         </div>
         <nav class="header__nav">
             <ul class="header__list">
@@ -25,16 +25,16 @@
                     <a href="/index.html">Home</a>
                 </li>
                 <li class="header__li">
-                    <a href="/pages/productos/productos.html">Productos</a>
+                    <a href="../pages/productos/productos.html">Productos</a>
                 </li>
                 <li class="header__li">
-                    <a href="/pages/galeria.html">Galería</a>
+                    <a href="../pages/galeria.html">Galería</a>
                 </li>
                 <li class="header__li">
-                    <a href="/pages/cuidados.html">Cuidados</a>
+                    <a href="../pages/cuidados.html">Cuidados</a>
                 </li>
                 <li class="header__li">
-                    <a href="/pages/contacto.html">Contacto</a>
+                    <a href="../pages/contacto.html">Contacto</a>
                 </li>
                 <li class="header__libag">
                     <a href="#" class="header__libag--link">
@@ -46,58 +46,63 @@
         
     </header>
 
-    <main>
-        <h1>¡Mantenete informadx con nuestra newsletter!</h1>
-        <form action="/pages/contacto.html">
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre">
-            <br><br>
-            <label for="apellido">Apellido</label>
-            <input type="text" name="apellido">
-            <br><br>
-            <label for="fecha">Fecha de nacimiento</label>
-            <input type="date" name="fecha">
-            <br><br>
-            <label for="email">Correo Electrónico</label>
-            <input type="email">
-            <br><br>
-            <label for="ciudad">Ciudad</label>
-            <input type="text" name="Ciudad">
-            <br><br>
-            <label for="cp">Código Postal</label>
-            <input type="text" name="cp">
-            <br><br>
+    <main class="contacto">
+        <h1 class="contacto__h1">¡Mantenete informadx con nuestra newsletter!</h1>
+        <div class="form">
+        <form action="../pages/contacto.html" class="contacto__form">
+            <label class="contacto__label" for="nombre">Nombre</label>
+            <input type="text" name="nombre" class="contacto__input">
+        
+            <label class="contacto__label" for="apellido">Apellido</label>
+            <input type="text" name="apellido" class="contacto__input">
+            
+            <label class="contacto__label" for="fecha">Fecha de nacimiento</label>
+            <input type="date" name="fecha" class="contacto__input">
+            
+            <label class="contacto__label" for="email">Correo Electrónico</label>
+            <input type="email" class="contacto__input">
+            
+            <label class="contacto__label" for="ciudad">Ciudad</label>
+            <input type="text" name="Ciudad" class="contacto__input">
+            
+            <label class="contacto__label" for="cp">Código Postal</label>
+            <input type="text" name="cp" class="contacto__input">
+            
             <div>
-                <label for="pais">País</label>
-                <br>
-                <select name="pais" id="">
+                <label class="contacto__label" for="pais">País</label>
+                
+                <select name="pais" id="" class="contacto__input">
                     <option value="argentina">Argentina</option>
                     <option value="uruguay">Uruguay</option>
                     <option value="brasil">Brasil</option>
                     <option value="chile">Chile</option>
                 </select>
             </div>
-            <br>
-            <div>
+            
+            <div class="contacto__checkbox">
                 <label for="acepto">Acepto términos y condiciones.</label>
                 <input type="checkbox" name="acepto">
             </div>
-            <br>
-            <div>
+            
+            <div class="contacto__mensaje">
                 <label for="mensaje">Mensaje</label>
                 <br>
                 <textarea name="mensaje" id="" cols="50" rows="8"></textarea>
             </div>
-            <br>
+            
+            <div class="botones__contacto">
             <input type="submit" value="Suscribirme">
+            
             <input type="reset" value="Limpiar">
-
+            </div>
         </form>
+        </div>
+
     </main>
 
     <footer class="footer">
         <div class="footer__logo">
-            <img src="/img/Eloise.png" alt="Logo Eloise">
+            <img src="../img/Eloise.png" alt="Logo Eloise">
         </div>
         <div class="footer__horarios">
             <h2 class="footer__horariosh2">Horarios de atención</h2>

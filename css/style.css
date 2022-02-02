@@ -7,11 +7,11 @@
 /* HEADER */
 
 .header{
-    background-image: url("../img/bokeh.jpg");
+    background-image: url("../img/bokeh.gif");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 200px;
+    height: 180px;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -21,7 +21,7 @@
 .header__logo{
     padding-top: 10px;
     padding-left: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .header__list{
@@ -211,14 +211,19 @@
 /* MAIN PRODUCTOS */
 .productos {
     background-color: #DDE7C7;
-    padding-left: 30px;
-    padding-top: 30px;
+    width: 100vw;
 }
 
 .productos__h1 {
     font-family: 'Playfair Display', serif;
     font-size: 50px;
     color: #59B18F;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.productos__div{
+    margin-left: 8%;
 }
 
 .productos__categoria {
@@ -250,18 +255,37 @@
 
 .galeria{
     background-color: #DDE7C7;
+    padding-bottom: 2rem;
+    width: 100vw;
+}
+
+.galeria__h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #59B18F;
 }
 
 .galeria__imagen{
     width: 300px;
     height: auto;
     display: inline-block;
-    padding: 10px;
 }
 
 .galeria__imagen img{
     width: 100%;
     height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.galeria__accesorios{
+    display: block;
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
 /* MAIN CUIDADOS */
@@ -298,4 +322,152 @@
 
 .cuidados__li{
     padding-top: 20px;
+}
+
+/* MAIN CONTACTO */
+
+.contacto{
+    background-color: #DDE7C7;
+}
+
+.contacto__h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-align: center;
+    color: #59B18F;
+    padding-top: 20px;
+}
+
+.contacto__form{
+    padding-left: 30px;
+    border: solid 3px #3B7D64;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 500px;
+}
+
+.contacto__label {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #3B7D64;
+}
+
+.contacto__input{
+    border-radius: 5px;
+    border-color: #3B7D64;
+    height: 30px;
+    width: 250px;
+}
+
+.contacto__checkbox{
+    padding-top: 20px;
+    font-family: 'Playfair Display',
+    serif;
+    font-size: 20px;
+    color: #3B7D64;
+}
+
+.contacto__mensaje{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #3B7D64;
+}
+
+.contacto__mensaje textarea{
+    border-radius: 5px;
+    border-color: #3B7D64;
+}
+
+.botones__contacto {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.botones__contacto input{
+    margin-right: 20px;
+    background-color: #BFD8BD;
+    padding: 10px;
+    border: 3px solid #3B7D64;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #3B7D64;
+}
+
+.form {
+    padding-bottom: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* MAIN ANILLOS, AROS Y COLLARES (ACCESORIOS) */
+
+.accesorios{
+    background-color: #DDE7C7;
+    width: 100vw;
+}
+
+.accesorios__h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #59B18F;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.accesorios__card{
+    height: 45rem;
+    width: 30rem;
+    display: inline-block;
+    padding-left: 4rem;
+    /* padding-right: 2.5rem; */
+    padding-top: 1rem;
+    padding-bottom: 3.5rem;
+}
+
+.accesorios__h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #59B18F;
+    padding-bottom: 1rem;
+    /* padding-left: 2rem; */
+    text-align: center;
+}
+
+.accesorios__card img{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.accesorios__precio{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #59B18F;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.accesorios__agregar{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: #59B18F;
+    border: none;
+    background-color: #DDE7C7;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.accesorios__agregar:hover{
+    color: #356E58;
 }
